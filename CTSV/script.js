@@ -8,6 +8,5 @@ function showTab(tabName) {
 }
 
 window.onload = function() {
-  showTab('lylich', 'trangthai');
+  showTab('lylich');
 };
-
