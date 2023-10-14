@@ -141,3 +141,27 @@ th, td {
   font-weight: bold;
   color: #303133;
 }
+.tab {
+  display: flex;
+  margin-top: 20px;
+}
+
+.tab-button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.tab-button:hover {
+  background-color: #ddd;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}

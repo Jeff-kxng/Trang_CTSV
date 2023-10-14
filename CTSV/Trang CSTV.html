@@ -26,35 +26,32 @@
       </div>
     </div>
     <div class="left-second">
-      <table class="table">
-        <tr>
-          <th class="table-header custom-color">Trạng thái</th>
-          <th class="table-header">Quản Lý</th>
-        </tr>
-      </table>
-      <div>
-        <p>Trạng thái học tập: <span style="color:deepskyblue;">Học</span></p>
-        <p>CPA: 3.33</p>
-        <p>Nợ: 0 TC</p>
-        <p>Tích lũy: 77</p>
-        <p>Mức cảnh cao: M0</p>
-        <p>Trình độ: 3</p>
+      <div class="tab">
+        <button class="tab-button" onclick="showTab('trangthai')">Trạng thái</button>
+        <button class="tab-button" onclick="showTab('Quanly')">Quản lý</button>
+      </div>
+      <div class="table" id="trangthai">
+        <div>
+          <p>Trạng thái học tập: <span style="color: deepskyblue;">Học</span></p>
+          <p>CPA: 3.33</p>
+          <p>Nợ: 0 TC</p>
+          <p>Tích lũy: 77</p>
+          <p>Mức cảnh cao: M0</p>
+          <p>Trình độ: 3</p>
+        </div>
       </div>
     </div>
   </div>
   <div class="right">
-    <table class="table">
-      <tr>
-        <th class="table-header" id="color-blue">Lý lịch</th>
-        <th class="table-header">Quyết định</th>
-        <th class="table-header">Khen thưởng</th>
-        <th class="table-header">Liên hệ</th>
-        <th class="table-header">Nhận xét</th>
-        <th class="table-header">Hoạt động tham gia</th>
-      </tr>
-      <!-- Add table rows and data here -->
-    </table>
-    <div>
+    <div class="tab">
+      <button class="tab-button" onclick="showTab('lylich')">Lý lich</button>
+      <button class="tab-button" onclick="showTab('quyetdinh')">Quyết định</button>
+      <button class="tab-button" onclick="showTab('khenthuong')">Khen thưởng</button>
+      <button class="tab-button" onclick="showTab('lienhe')">Liên hệ</button>
+      <button class="tab-button" onclick="showTab('Nhanxet')">Nhận xét</button>
+      <button class="tab-button" onclick="showTab('hoatdongthamgia')">Hoạt động tham gia</button>
+    </div>
+    <div class="table" id="lylich">
       <div>
         <h1 class="section-heading">Thông tin cá nhân</h1>
         <div class="personal-info">
@@ -132,5 +129,6 @@
     </div>
   </div>
 </section>
+<script src="script.js"></script>
 </body>
 </html>
