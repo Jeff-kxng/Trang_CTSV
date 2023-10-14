@@ -50,7 +50,11 @@ th, td {
 }
 
 #color-blue {
-  color: aqua;
+  color: dodgerblue;
+}
+
+.custom-color {
+  color: dodgerblue; /* Change to the desired color */
 }
 
 .left-first-header {
