@@ -15,7 +15,7 @@ var ki_hoc = ["2021.1", "2021.2", "2022.1", "2022.2", "2023.1"];
 var cpaData = [3.5, 3.7, 3.6, 3.8, 3.9];
 var gpaData = [3.2, 3.4, 3.5, 3.6, 3.7];
 var tcNoData = [0, 0, 2, 0, 1];
-var tcTichLuyData = [30, 60, 90, 120, 150];
+var tcTichLuyData = [20, 35, 50, 65, 80];
 
 var ctx = document.getElementById('myChart').getContext('2d');
 
