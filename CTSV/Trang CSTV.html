@@ -27,8 +27,8 @@
     </div>
     <div class="left-second">
       <div class="tab">
-        <button class="tab-button" onclick="showTab('trangthai')">Trạng thái</button>
-        <button class="tab-button" onclick="showTab('Quanly')">Quản lý</button>
+        <button class="tab-button" onclick="showTab('trangthai')" style="color: blue;">Trạng thái</button>
+        <button class="tab-button" onclick="showTab('lylich')">Lý lich</button>
       </div>
       <div class="table" id="trangthai">
         <div>
@@ -44,7 +44,7 @@
   </div>
   <div class="right">
     <div class="tab">
-      <button class="tab-button" onclick="showTab('lylich')">Lý lich</button>
+      <button class="tab-button" onclick="showTab('lylich')" style="color: blue;">Lý lich</button>
       <button class="tab-button" onclick="showTab('quyetdinh')">Quyết định</button>
       <button class="tab-button" onclick="showTab('khenthuong')">Khen thưởng</button>
       <button class="tab-button" onclick="showTab('lienhe')">Liên hệ</button>
@@ -129,6 +129,13 @@
     </div>
   </div>
 </section>
+<div class="chart-container">
+  <canvas id="myChart"></canvas>
+</div>
+<div class="chart-container">
+  <canvas id="myChartRenLuyen"></canvas>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
